@@ -53,7 +53,8 @@ function UserData({data}) {
             <input type='text'
              value = {user.id}
              name="id"
-        //  
+            //  unique id so this will be readony we cant change the value 
+             readOnly
              onChange={(e)=> HandleChange(e)}
             />
         }
